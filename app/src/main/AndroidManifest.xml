@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.servipro_engg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".app.BaseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/logo2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@layout/security_config"
+        android:roundIcon="@drawable/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Signature"></activity>
+        <activity android:name=".Activity.MultipleService" />
+        <activity android:name=".Activity.AddServiceReminder" />
+        <activity android:name=".Activity.PendingCall" />
+        <activity android:name=".Activity.ServiceDetails" />
+        <activity android:name=".Activity.CustAmcDetails" />
+        <activity android:name=".Activity.CustomerList" />
+        <activity android:name=".Activity.AddMachineAmc" />
+        <activity android:name=".Activity.ServiceReminder" />
+        <activity android:name=".Activity.Profile" />
+        <activity android:name=".Activity.AddRequest" />
+        <activity
+            android:name=".Activity.Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.ForgotPassword" />
+        <activity android:name=".Activity.Login" />
+        <activity android:name=".Activity.Register" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

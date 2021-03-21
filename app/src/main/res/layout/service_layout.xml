@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@+id/toolbar"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/serveNo"
+            android:layout_width="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/service_call_no"
+            android:visibility="gone"
+            android:layout_width="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/cust_id"
+            android:visibility="gone"
+            android:layout_width="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+        <TextView
+            android:id="@+id/serveDate"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:text="Kent RO 450"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:id="@+id/spareChechbox"
+            android:backgroundTint="@color/dusk_yellow"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/line1"
+        android:layout_below="@+id/linear1"
+        android:layout_width="370dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:background="#8d8787" />
+
+</RelativeLayout>

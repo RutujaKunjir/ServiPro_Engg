@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appPrimaryColor">#00958f </color>
+    <color name="white">#FFF</color>
+    <color name="dusk_yellow">#ffa900</color>
+    <color name="black">#000</color>
+    <color name="light_silver_color">#e9e9e9</color>
+    <color name="dark_silver_color">#c2c2c2</color>
+    <color name="newNote">#F3E0E0</color>
+    <color name="light_app_primary_color">#8ed7d3</color>
+    <color name="colorGreen">#32db64</color>
+    <color name="Green">#0D8F33</color>
+    <color name="colorDanger">#f53d3d</color>
+    <color name="orang">#c76305</color>
+    <color name="lightblue">#3dcbf6</color>
+    <color name="red">#f53d3d</color>
+    <color name="dark_red">#7c0000</color>
+    <color name="alarm_dialog_ok_btn_color">#d7d7d7</color>
+    <color name="dark_gray">#868686</color>
+    <color name="verydark_gray">#5C5B5B</color>
+    <color name="tab_indicator_color">#FFFFFF</color>
+    <color name="tab_txt_normal_color">#d7d7d7</color>
+    <color name="CanvasBackground">#ffffff</color>
+    <color name="tab_txt_selected_color">#FFFFFF</color>
+    <color name="btn_press_effect_color">#ffa056</color>
+    <color name="BorderLineColor">#B8B9B1</color>
+    <color name="light_dusk_yellow">#F7B127</color>
+
+    <color name="gray">#FCFBFB</color>
+</resources>

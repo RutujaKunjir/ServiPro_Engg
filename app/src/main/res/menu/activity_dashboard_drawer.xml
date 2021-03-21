@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_addreq"
+            android:icon="@drawable/ic_amc"
+            android:title="Add Request" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@drawable/ic_report"
+            android:title="Pending Calls" />
+        <item
+            android:id="@+id/nav_cust_list"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Customer List" />
+        <item
+            android:id="@+id/nav_remind"
+            android:icon="@drawable/ic_amc"
+            android:title="Service Reminder" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Action">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

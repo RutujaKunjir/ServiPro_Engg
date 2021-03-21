@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ServiPro Engg</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="new_tab">OPEN</string>
+    <string name="waiting_tab">Re-Schedule</string>
+    <string name="follow_up_tab">ATTENDED</string>
+    <string name="closed_tab">Closed</string>
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_Upload">Upload</string>
+
+    <string-array name="freq_array">
+        <item>Services</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="year_array">
+        <item>Year</item>
+        <item>1 Year</item>
+        <item>2 Year</item>
+        <item>3 Year</item>
+    </string-array>
+
+    <string name="and">&amp;</string>
+</resources>
